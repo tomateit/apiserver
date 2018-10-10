@@ -1,8 +1,6 @@
 This project was a bit bootstrapped with [express-generator](https://www.npmjs.com/package/express-generator).
 
-
 Below you will find some information on how to perform common tasks and understand some edge-cases.<br>
-
 
 ## Table of Contents
 
@@ -10,16 +8,8 @@ Below you will find some information on how to perform common tasks and understa
 - [Available Scripts](#available-scripts)
   - [npm start](#npm-start)
   - [npm run dev](#npm-run-dev)
-  - [npm run client](#npm-run-client)
-  - [npm run build](#npm-run-build)
   - [npm run server](#npm-runserver)
 - [Main page (one with table)](#main-page)
-  - [Usage of portals](#portals)
-  - [Custom config file](#custom-config-files)
-  - [Filtering](#filters)
-    - [Filter components](#filter-components)
-    - [Filter algorithms](#filter-algorithms)
-
 
 ## Folder Structure
 
@@ -31,7 +21,6 @@ apiserver/
     www   #Start script
   config/
     config.js   #DEV ENV variables
-    winston.js
   db/
     mongoose.js   #connection to MongoDB
   logs/
@@ -54,8 +43,6 @@ apiserver/
 //some files are ommited for clarity
   
 ```
-
-
 
 ## Available Scripts
 
