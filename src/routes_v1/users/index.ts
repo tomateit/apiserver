@@ -1,8 +1,7 @@
 const express = require('express');
-const jwt = require("jsonwebtoken");
 
-const { authenticate } = require('../../../middleware/authenticate');
-const { User } = require('../../../models/User');
+const { authenticate } = require('../../middleware/authenticate');
+const { User } = require('../../models/User');
 const { FeedPost } = require('../../../models/FeedPost');
 
 const Router = express.Router();

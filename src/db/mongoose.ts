@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
 // MONGODB_URI can be set by .env file
 mongoose.Promise = global.Promise;

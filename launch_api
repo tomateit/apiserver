@@ -3,7 +3,7 @@
 console.log('STARTING API SERVER....');
 require('dotenv').config()
 const http = require('http');
-const app = require('./server');
+const app = require('./src/server');
 
 
 /**

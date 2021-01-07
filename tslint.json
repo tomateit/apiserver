@@ -1,0 +1,9 @@
+{
+    "extends": ["tslint:recommended", "tslint-config-prettier"],
+    "rules": {
+      "curly": false,
+      "ordered-imports": false,
+      "no-console": false,
+      "comment-format": false
+    }
+  }
